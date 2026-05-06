@@ -1,0 +1,6 @@
+.debhelper/
+debhelper-build-stamp
+*.substvars
+files
+php-parsica-parsica/
+tmp/

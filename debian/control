@@ -1,0 +1,16 @@
+Source: php-parsica-parsica
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), jq
+Standards-Version: 4.6.2
+Homepage: https://github.com/parsica-php/parsica
+Vcs-Git: https://github.com/Vitexus/php-parsica-parsica.git
+Rules-Requires-Root: no
+
+Package: php-parsica-parsica
+Architecture: all
+Depends: ${misc:Depends}, php-cli | php, composer, php-mbstring
+Description: Parser combinator library for PHP
+ Parsica is a parser combinator library for PHP. It provides
+ a set of combinators for building parsers from smaller ones.
